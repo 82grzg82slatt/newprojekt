@@ -84,6 +84,7 @@ public class Main {
                 trafione.add(wpisana);
             }
         }
+        System.out.println(trafione);
 
 
     }

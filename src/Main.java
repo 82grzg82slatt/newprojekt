@@ -2,6 +2,11 @@ import java.util.*;
 
 public class Main {
 
+    /**
+     * wylosujListe - losuje liste liczb całkowitych z zakresu 1,100
+     * @param ileElementow - liczba wylosowanych elemwntów
+     * @return - ArrayListe z liczbami wylosowanymi
+     */
     private static ArrayList<Integer> wylosujListe(int ileElementow){
         //losowanie listy bez powtorzen
         ArrayList<Integer> listaLiczbWylosowanychBezPowtorzen = new ArrayList<>();
@@ -54,5 +59,28 @@ public class Main {
         ArrayList<Integer> trafione =zwrocElementyZObuList(losowe, wpisane);
         wypiszListe(trafione);
 
+        /*
+            1. git init
+
+2. git config user.name ""
+
+3. git config user.email ""
+
+4. git add .
+
+5. git commit -m "komentarz"
+
+6. git remote add origin https://github.com/82grzg82slatt/newprojekt.git
+
+7. git push -u origin master
+
+i potem tylko
+
+1. git add .
+
+2. git commit -m "komentarz"
+
+3. git push -u
+         */
     }
 }

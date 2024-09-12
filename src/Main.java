@@ -61,7 +61,7 @@ public class Main {
 
         /*
             1. git init
-
+vgjbnkjgg
 2. git config user.name ""
 
 3. git config user.email ""

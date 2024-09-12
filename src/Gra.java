@@ -2,14 +2,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class gra {
+public class Gra {
 
     private ArrayList<Integer> wylosowane = new ArrayList<>();
     private ArrayList<Integer> wpisane = new ArrayList<>();
     private ArrayList<Integer> trafione = new ArrayList<>();
 
     private void wylosujLiczby(int ile) {
-        for (int i = 0; i < ile; i++) {
+        while (wylosowane.size()<6) {
             int liczba = (int) (Math.random() * 100 + 1);
             while (wylosowane.contains(liczba)) {
                 liczba = (int) (Math.random() * 100 + 1);
